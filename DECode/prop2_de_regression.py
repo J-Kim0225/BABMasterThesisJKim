@@ -49,7 +49,7 @@ def run_regression_model(dependent_var, independent_vars, data):
 
 
 def main():
-    path = '/home/kphukan/Documents/J/jthesis/Code'
+    path = os.getcwd()
     files = {
         "beta_values": f"{path}/DEResults/de_beta_values.csv",
         "returns": f"{path}/German data/DE_total_return_01-2024.csv",
